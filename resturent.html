@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+
+  
+    
+    <!--Custom css-->
+    <link rel="stylesheet" href="resturent.css" />
+
+    <!--Font style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>Bhoj Paradise</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand brandname" href="#">Bhoj Paradise</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Bhoj Paradise
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="offcanvasNavbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Food Catagory
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="offcanvasNavbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Fish</a></li>
+                  <li><a class="dropdown-item" href="#">Chicken</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                  
+                </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--C R A R O U S E L-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="jakub-kapusnak-4f4YZfDMLeU-unsplash.jpg" class="d-block w-100 mediumheight" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" class="d-block w-100 mediumheight" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="zakaria-zayane-0uAVsDcyD0M-unsplash.jpg" class="d-block w-100 mediumheight" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Middle-->
+    <div>
+    <h1 class="founder">Founders</h1>
+  </div>
+  
+    <div class="container">
+      
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text><image href="ph-m-duy-quang-QGr6H7pri-Q-unsplash.jpg" height="200" width="150"/></svg>
+
+        <h2>Payel</h2>
+        <p><i>"Winners never quit and quitters never win"</i></p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text><image href="mitchell-luo-ymo_yC_N_2o-unsplash.jpg" height="200" width="150"/></svg>
+
+        <h2>Anik</h2>
+        <p><i>“We welcome your appetite. Let our food satisfy your stomach.”</i></p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text><image href="ali-morshedlou-WMD64tMfc4k-unsplash.jpg" height="150" width="150"/></svg>
+
+        <h2>Swagata</h2>
+        <p><i>"Love & Food Are Meant For Sharing Not For Wasting."</i></p>
+        <p><a class="btn btn-secondary" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+    </div>
+    <!--Footer-->
+    
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block cont">
+      <h4><center>Get connected with us on social networks:</center></h4>
+    
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <div class="cont mt-5 mb-5 d-flex justify-content-center social  ">
+        <ul class="social-list">
+            <li>
+                <div class="maincard p-3">
+                    <div class="thecard">
+                        <div class="thefront text-center py-4 facebook">
+                            <div class="social-icon"> <i class="fa fa-facebook fa-2x "></i> </div>
+                        </div>
+                        <div class="theback py-3 px-3 text-center facebook">
+                            <div class="social-text mt-1"> <small class="font-weight-bold">Facebook</small> </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="maincard p-3">
+                    <div class="thecard">
+                        <div class="thefront text-center py-4 instagram">
+                            <div class="social-icon"> <i class="fa fa-instagram fa-2x"></i> </div>
+                        </div>
+                        <div class="theback py-3 px-3 text-center instagram">
+                            <div class="social-text mt-1"> <small class="font-weight-bold">Instagram</small> </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="maincard p-3">
+                    <div class="thecard">
+                        <div class="thefront text-center py-4 youtube">
+                            <div class="social-icon"> <i class="fa fa-youtube fa-2x"></i> </div>
+                        </div>
+                        <div class="theback py-3 px-3 text-center youtube">
+                            <div class="social-text mt-1"> <small class="font-weight-bold">Youtube</small> </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="maincard p-3">
+                    <div class="thecard">
+                        <div class="thefront text-center py-4 whatsapp">
+                            <div class="social-icon"> <i class="fa fa-whatsapp fa-2x"></i> </div>
+                        </div>
+                        <div class="theback py-3 px-3 text-center whatsapp">
+                            <div class="social-text mt-1"> <small class="font-weight-bold">Whatsapp</small> </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="maincard p-3">
+                    <div class="thecard">
+                        <div class="thefront text-center py-4 pinterest">
+                            <div class="social-icon"> <i class="fa fa-pinterest fa-2x"></i> </div>
+                        </div>
+                        <div class="theback py-3 px-3 text-center pinterest">
+                            <div class="social-text mt-1"> <small class="font-weight-bold">Pinterest</small> </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="container2">
+    <div class="container text-center text-md-start mt-5 container2 ">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 container2">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            A good restaurant is like a vacation; it transports you, and it becomes a lot more than just about the food.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> NewTown,Diamond Harbour</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            bhojparadise8@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 91 234987</p>
+          <p><i class="fas fa-print me-3"></i> + 91 255970</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
